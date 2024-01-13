@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.gssdhandan.ccpacrcompact.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "CCPACRCompact.refmap.json",
+  "mixins": [
+    "MixinCPBlock",
+    "MixinCPTeleporter",
+    "MixinCreateTrack"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
